@@ -1,0 +1,27 @@
+{
+  "name": "cucumber1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "test": "cucumber-js",
+    "cy:tests": "cypress run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.6.0",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.3.2"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^10.0.1",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "prettier": "^3.1.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinition": true
+  }
+}
